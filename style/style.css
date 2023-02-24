@@ -2,8 +2,7 @@
   width: 1361px;
   width: 1600px;
   height: 81px;
-  /* background:#fff; */
-  background: red;
+  background:#fff;
   z-index: 1;
   display: flex;
   justify-content: space-around;
@@ -56,13 +55,11 @@
   width: 1171px;
   height: 682px;
   display: flex;
-  background: grey;
 }
 .left {
   width: 241px;
   height: 242px;
   margin-right: 59px;
-  background: coral;
 }
 /* patara teqstis bloki  START*/
 .our {
@@ -86,12 +83,10 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background: blue;
 }
 .righsmall {
   width: 269px;
   height: 327px;
-  background: lightgreen;
 }
 /* pirveli patara bloki */
 .iside-block {
