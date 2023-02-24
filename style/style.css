@@ -1,13 +1,22 @@
 .headerwrapper {
   width: 1361px;
+  width: 1600px;
   height: 81px;
-  background: #fff;
-
+  /* background:#fff; */
+  background: red;
+  z-index: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
+  position: fixed;
 }
+/* main{
+  margin: 0 auto;
+} */
+/* ქრისტინას  */
+/* ყველასთვის რო ერთიანად მიმემართა არ შეიძლებოდა?  
+თუ უბრალოდ არასწორად დავწერე? :))*/
 .logo {
   width: 133px;
   height: 30px;
@@ -23,24 +32,124 @@
 .color {
   color: #303134;
 }
-
-
 /* main section */
-.sectionmain{
+.sectionmain {
   position: relative;
 }
-.textblock{
+.textblock {
   position: absolute;
   top: 171px;
   left: 93px;
   width: 586px;
   height: 146px;
 }
-.header1{
+.header1 {
   font-size: 78px;
-text-align: center;
+  text-align: center;
 }
-.p1{
+.p1 {
   text-align: center;
   margin-top: 34px;
+}
+/* section 2 */
+.fulldiv {
+  width: 1171px;
+  height: 682px;
+  display: flex;
+  background: grey;
+}
+.left {
+  width: 241px;
+  height: 242px;
+  margin-right: 59px;
+  background: coral;
+}
+/* patara teqstis bloki  START*/
+.our {
+  font-size: 26px;
+  margin-top: 2px;
+  font-family: "Raleway", sans-serif;
+}
+.discover {
+  color: #8d8d8d;
+}
+.left-block-text {
+  width: 240px;
+  height: 145px;
+  margin-top: 39px;
+  font-size: 16px;
+}
+/* marjvena didi divi tavisi patara divebit */
+.right {
+  width: 874px;
+  height: 682px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: blue;
+}
+.righsmall {
+  width: 269px;
+  height: 327px;
+  background: lightgreen;
+}
+/* pirveli patara bloki */
+.iside-block {
+  position: relative;
+}
+.isnisde-text {
+  position: absolute;
+  top: 17px;
+  left: 34px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+.right-text {
+  margin-top: 52px;
+}
+/* meore patara bloki  */
+/* da ar damaviwydes yvelas ro mivce nacrisferi 
+textsi feri */
+.hotel {
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+/* mesame divchiki */
+.text3 {
+  margin-top: 52px;
+}
+.family-wrapper {
+  position: relative;
+}
+.family-text {
+  position: absolute;
+  top: 17px;
+  left: 27px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+/* meotxe bloki */
+.inside-block2 {
+  position: relative;
+  margin-bottom: 52px;
+}
+.cruise-text {
+  position: absolute;
+  top: 19px;
+  left: 31px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+/* mexute bloki */
+.fire-camp{
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+/* meeqvse bloki */
+.corporative{
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+.text1{
+  color:#8D8D8D ;
 }
